@@ -11,11 +11,12 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-Display a banner when your internet connection is unavailable.
+Display a MaterialBanner when your internet connection is unavailable.
 
 ## Features
 
-Display a banner when your internet connection is unavailable.
+internet_checker_banner display a MaterialBanner when your Internet 
+connection is unavailable, and deactivate it otherwise.
 
 
 ## Screenshot
@@ -56,8 +57,3 @@ don't forget to dispose it inside dispose() function.
 ```dart
     InternetCheckerBanner().dispose();
 ```
-
-
-
-# internet_checker_banner
-# internet_checker_banner

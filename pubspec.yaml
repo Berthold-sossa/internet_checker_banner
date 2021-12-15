@@ -1,6 +1,6 @@
 name: internet_checker_banner
-description: A new Flutter project.
-version: 0.0.1
+description: Display a MaterialBanner when your internet connection is unavailable.
+version: 0.0.2
 homepage: https://github.com/Berthold-sossa/internet_checker_banner
 
 environment:
