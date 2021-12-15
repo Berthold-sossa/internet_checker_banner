@@ -17,7 +17,7 @@ Display a banner when your internet connection is unavailable.
 
 Display a banner when your internet connection is unavailable.
 
-![](example/screenshot.png)
+![](example/screenshot-min.png)
 
 ## Getting started
 
