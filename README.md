@@ -17,9 +17,9 @@ Display a banner when your internet connection is unavailable.
 
 Display a banner when your internet connection is unavailable.
 
-![](example/screenshot-min.png)
 
-Screenshot
+## Screenshot
+
 ![](https://github.com/Berthold-sossa/internet_checker_banner/blob/main/example/screenshot-min.png)
 
 ## Getting started
