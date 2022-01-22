@@ -21,7 +21,7 @@ connection is unavailable, and deactivate it otherwise.
 
 ## Screenshot
 
-![](https://github.com/Berthold-sossa/internet_checker_banner/blob/main/example/screenshot-min.png)
+![](https://github.com/Berthold-sossa/internet_checker_banner/blob/main/example/video.gif)
 
 ## Getting started
 

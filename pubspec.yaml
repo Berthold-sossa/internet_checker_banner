@@ -1,6 +1,6 @@
 name: internet_checker_banner
 description: Display a MaterialBanner when your internet connection is unavailable.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Berthold-sossa/internet_checker_banner
 
 environment:
