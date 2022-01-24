@@ -33,7 +33,7 @@ start using the package.
 1. Add the latest version of package to your pubspec.yaml (and rundart pub get):
 ```yaml
     dependencies:
-      internet_checker_banner: ^0.0.1
+      internet_checker_banner: ^0.0.4
 ```
 
 2. Import the package and use it in your Flutter App.
