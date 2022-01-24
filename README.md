@@ -16,7 +16,9 @@ Display a MaterialBanner when your internet connection is unavailable.
 ## Features
 
 internet_checker_banner display a MaterialBanner when your Internet 
-connection is unavailable, and deactivate it otherwise.
+connection is bad or unavailable, and close it otherwise. 
+The plugin determine if the device is currently connected 
+to the global network (has access to the Internet).
 
 
 ## Screenshot
@@ -57,3 +59,5 @@ don't forget to dispose it inside dispose() function.
 ```dart
     InternetCheckerBanner().dispose();
 ```
+
+See *example* folder for more examples.

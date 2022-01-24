@@ -6,12 +6,15 @@ import 'package:internet_connection_checker/internet_connection_checker.dart';
 class InternetCheckerBanner {
   late StreamSubscription listen;
 
+  // listen the connection  status
   StreamSubscription initialize(BuildContext context,
       {String title = "No internet!"}) {
     listen = InternetConnectionChecker().onStatusChange.listen((event) {
       if (event == InternetConnectionStatus.connected) {
+        // If the internet connection is good, close the banner
         ScaffoldMessenger.of(context).clearMaterialBanners();
       } else {
+        // If the internet connection is bad or unavailable, display the banner
         debugPrint("No internet!");
         ScaffoldMessenger.of(context).showMaterialBanner(MaterialBanner(
           backgroundColor: Colors.red,

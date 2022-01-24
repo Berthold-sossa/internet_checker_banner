@@ -38,12 +38,16 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  // Initialize internet_checker_banner inside the initState() function
+
   @override
   void initState() {
     // TODO: implement initState
     InternetCheckerBanner().initialize(context, title: "No internet access");
     super.initState();
   }
+
+  // don't forget to dispose it inside dispose() function
 
   @override
   void dispose() {
