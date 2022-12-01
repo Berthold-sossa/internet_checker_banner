@@ -25,7 +25,7 @@ TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
 1. Add the latest version of package to your pubspec.yaml (and rundart pub get):
-```dart
+```yaml
     dependencies:
       internet_checker_banner: ^0.0.1
 ```
