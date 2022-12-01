@@ -11,13 +11,19 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-Display a banner when your internet connection is unavailable.
+Display a MaterialBanner when your internet connection is unavailable.
 
 ## Features
 
-Display a banner when your internet connection is unavailable.
+internet_checker_banner display a MaterialBanner when your Internet 
+connection is bad or unavailable, and close it otherwise. 
+The plugin determine if the device is currently connected 
+to the global network (has access to the Internet).
 
-![](example/screenshot.png)
+
+## Screenshot
+
+![](https://github.com/Berthold-sossa/internet_checker_banner/blob/main/example/video.gif)
 
 ## Getting started
 
@@ -27,7 +33,7 @@ start using the package.
 1. Add the latest version of package to your pubspec.yaml (and rundart pub get):
 ```yaml
     dependencies:
-      internet_checker_banner: ^0.0.1
+      internet_checker_banner: ^0.0.4
 ```
 
 2. Import the package and use it in your Flutter App.
@@ -54,6 +60,4 @@ don't forget to dispose it inside dispose() function.
     InternetCheckerBanner().dispose();
 ```
 
-
-
-# internet_checker_banner
+See *example* folder for more examples.
