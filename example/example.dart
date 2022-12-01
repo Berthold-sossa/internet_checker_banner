@@ -38,11 +38,8 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-<<<<<<< HEAD
-=======
   // Initialize internet_checker_banner inside the initState() function
 
->>>>>>> fa8ce7d709229a8908fc8772ff90f5f28a9cf701
   @override
   void initState() {
     // TODO: implement initState
@@ -50,11 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
   }
 
-<<<<<<< HEAD
-=======
   // don't forget to dispose it inside dispose() function
 
->>>>>>> fa8ce7d709229a8908fc8772ff90f5f28a9cf701
   @override
   void dispose() {
     // TODO: implement dispose
